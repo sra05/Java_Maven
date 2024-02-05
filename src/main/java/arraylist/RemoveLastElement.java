@@ -21,7 +21,7 @@ public class RemoveLastElement {
     }
 
     // Function to remove the last object from an ArrayList
-    private static void removeLastElement(ArrayList<String> list) {
+    public static void removeLastElement(ArrayList<String> list) {
         // Check if the ArrayList is not empty before removing
         if (!list.isEmpty()) {
             // Remove the last object (element at size()-1 index)

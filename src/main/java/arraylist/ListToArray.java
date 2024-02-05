@@ -21,7 +21,7 @@ public class ListToArray {
     }
 
     // Function to convert ArrayList of Strings to Array
-    private static String[] convertArrayListToArray(ArrayList<String> list) {
+    public static String[] convertArrayListToArray(ArrayList<String> list) {
         // Create a new array with the same size as the ArrayList
         String[] array = new String[list.size()];
 

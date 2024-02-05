@@ -1,27 +1,6 @@
 package arraylist;
 import java.util.ArrayList;
 
-class Student {
-    private String firstName;
-    private String lastName;
-    private double gpa;
-
-    public Student(String firstName, String lastName, double gpa) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gpa = gpa;
-    }
-
-    public double getGpa() {
-        return gpa;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{firstName='" + firstName + "', lastName='" + lastName + "', gpa=" + gpa + '}';
-    }
-}
-
 public class AverageGpa {
     public static void main(String[] args) {
         // Create an ArrayList of Students
@@ -44,7 +23,7 @@ public class AverageGpa {
     }
 
     // Function to remove students with GPA less than the average GPA
-    private static void removeStudentsBelowAverage(ArrayList<Student> students) {
+    public static void removeStudentsBelowAverage(ArrayList<Student> students) {
         // Calculate the average GPA
         double totalGpa = 0;
         for (Student student : students) {
@@ -57,7 +36,7 @@ public class AverageGpa {
     }
 
     // Function to display the list of students
-    private static void displayStudents(ArrayList<Student> students) {
+    public static void displayStudents(ArrayList<Student> students) {
         for (Student student : students) {
             System.out.println(student);
         }

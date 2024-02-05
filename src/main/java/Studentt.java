@@ -1,4 +1,4 @@
-public class Student {
+public class Studentt {
 
     String name= "Sravani";
     public String getName() {
@@ -6,7 +6,7 @@ public class Student {
     }
     public static void main(String[] args){
 
-        Student studentName = new Student();
-        System.out.println(studentName.getName());
+        Studentt studenttName = new Studentt();
+        System.out.println(studenttName.getName());
     }
 }
